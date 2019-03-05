@@ -1,0 +1,2 @@
+# model__10_detal_architektoniczny_pdbd
+Detal architektoniczny

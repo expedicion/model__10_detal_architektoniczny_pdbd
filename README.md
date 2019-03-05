@@ -1,2 +1,2 @@
-# model__10_detal_architektoniczny_pdbd
+# model__10_detale_architektoniczne_pdbd
 Detal architektoniczny

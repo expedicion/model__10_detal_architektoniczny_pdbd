@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="161D7FDE-D507-580E-042B-B4E3CC5C5C6F">
+<createdBy>Użytkownik WEiTI</createdBy>
+<modifiedBy>Użytkownik WEiTI</modifiedBy>
+<createdTime>2018-11-24 14:34:32 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0E6EBB4C-E8D2-90D1-D019-1E31186B4EE9" otype="Entity" vid="177BC859-48EA-B42D-FBB9-5F11F8CBA0E5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="363" y="458" width="203" height="186"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2BD8CAB0-6264-F9E0-1089-2B56BBFCD5D6" otype="Entity" vid="67B458BF-CBDA-7F79-3C43-E5D084CB64F5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="375" y="123" width="189" height="210"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="583ADA3C-0872-ED98-8FCE-71AABC95C6F6" otype="Entity" vid="9B48FD70-1291-CF90-11FE-58140F58DC20">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="717" y="114" width="194" height="218"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="8DF39BD3-5EF4-108A-97BA-151415E97F9F" otype="Note" vid="401D4703-74C9-8B3D-7E2C-7C6D6D8A5529">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1320" y="109" width="243" height="379"/>
+<comment>Zadanie 5. Detal architektoniczny&lt;br/&gt;Tworzona jest baza danych opisująca detale&lt;br/&gt;architektoniczne budynków kompleksu&lt;br/&gt;zabytkowego. Poszczególne detale mogą&lt;br/&gt;składać się z mniejszych detali (np. na&lt;br/&gt;zabytkowych schodach mogą być umieszczone&lt;br/&gt;rzeźby). Detale mają nazwę, opis, opis&lt;br/&gt;położenia oraz są podzielone na rodzaje. Dla&lt;br/&gt;każdego detalu w bazie może znajdować się&lt;br/&gt;pewna liczba notatek opatrzonych tytułem i&lt;br/&gt;zawierających pewien tekst.</comment>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="04ED1C9D-73BE-1276-F03D-9FD9D3696AA8" otype="Relation" vid_source="67B458BF-CBDA-7F79-3C43-E5D084CB64F5" vid_target="177BC859-48EA-B42D-FBB9-5F11F8CBA0E5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="469" y="333"/>
+<point x="469" y="458"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C586F02A-2D81-B6A5-4424-4704597BF6B1" otype="Relation" vid_source="67B458BF-CBDA-7F79-3C43-E5D084CB64F5" vid_target="67B458BF-CBDA-7F79-3C43-E5D084CB64F5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="375" y="229"/>
+<point x="242" y="229"/>
+<point x="244" y="372"/>
+<point x="418" y="372"/>
+<point x="418" y="333"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E5465A21-96CD-0192-FE26-A06E721B3EF4" otype="Relation" vid_source="9B48FD70-1291-CF90-11FE-58140F58DC20" vid_target="67B458BF-CBDA-7F79-3C43-E5D084CB64F5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="717" y="227"/>
+<point x="564" y="227"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="60625077-965D-E2FD-E427-E73A3385BA82" mainViewID="681AD494-3441-0FDF-CA45-4C0F223E311B">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:34:46 UTC</createdTime>
+<ownerDesignName>Detale_architektoniczne (rozwiazanie 1)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

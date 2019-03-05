@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="E5465A21-96CD-0192-FE26-A06E721B3EF4">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:41:29 UTC</createdTime>
+<ownerDesignName>Detale_architektoniczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="8BE4360E-C90A-B721-1AE3-D7834CA917D8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>583ADA3C-0872-ED98-8FCE-71AABC95C6F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2BD8CAB0-6264-F9E0-1089-2B56BBFCD5D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

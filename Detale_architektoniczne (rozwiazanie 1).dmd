@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Detale_architektoniczne (rozwiazanie 1)" id="EE59EB08-B0D1-6B54-7170-B6E73BDAD0D7" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:34:46 UTC</createdTime>
+<ownerDesignName>Detale_architektoniczne (rozwiazanie 1)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EE59EB08-B0D1-6B54-7170-B6E73BDAD0D7</designId>
+</OSDM_Design>

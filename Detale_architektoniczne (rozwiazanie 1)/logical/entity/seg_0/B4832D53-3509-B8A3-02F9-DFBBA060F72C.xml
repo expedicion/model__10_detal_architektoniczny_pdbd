@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4832D53-3509-B8A3-02F9-DFBBA060F72C" name="RODZAJ">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:55:36 UTC</createdTime>
+<ownerDesignName>Detale_architektoniczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="60625077-965D-E2FD-E427-E73A3385BA82" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZWA" id="EDB79259-8AFA-9046-E5E6-3AFACC369615">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:55:50 UTC</createdTime>
+<ownerDesignName>Detale_architektoniczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="60625077-965D-E2FD-E427-E73A3385BA82" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA8EE806-7617-ED44-215C-F42E6C372B71" name="RODZAJ PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:56:02 UTC</createdTime>
+<ownerDesignName>Detale_architektoniczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="60625077-965D-E2FD-E427-E73A3385BA82" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDB79259-8AFA-9046-E5E6-3AFACC369615</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
